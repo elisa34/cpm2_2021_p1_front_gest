@@ -1,0 +1,42 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    margin: 0 3.5% 0 3.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    max-width: 1300px;
+    width: auto;
+    margin: 0 auto;
+    font-size: 0.80em;
+  }
+
+nav{
+    margin-top: 15px;
+    position: relative;
+ }
+ header nav a {
+     text-decoration: none;
+     color: black;
+     padding: 2em;
+     font-weight: 500;
+ }
+ nav a:hover{
+     border-top: 3px solid #0065FC;
+     padding-top: 40px;
+     color: #0065FC;
+ }
+ 
+ .lien_inscrire{
+     color: #0065FC;
+     font-weight: bold;
+ }
+ 
+ .lien_inscrire:hover{
+    border-top: none;
+}
