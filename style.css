@@ -142,3 +142,31 @@ button:hover{
     color: #0065FC;
     background-color: #DEEBFF;
 }
+
+/*point information logements*/
+.infoLogements{
+    font-weight: 500;
+    font-size: 12px;
+    color: #303030;
+}
+
+.rond{
+    height: 14px;
+    width: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding: 1px;
+    color: #0065FC;
+    font-size: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 100%;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
