@@ -31,7 +31,7 @@ nav{
      padding-top: 40px;
      color: #0065FC;
  }
- 
+
  .recherche{
     display: flex;
     flex-direction: column;
@@ -48,4 +48,47 @@ nav{
     font-size: 100%;
     font-weight: 500;
     margin-top: 5px;
+}
+
+.map{
+    font-size: 1.1em;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+}
+
+input{
+    height: 40px;
+    width: 20%;
+    padding: 0 0 0 1%;
+    margin: 0;
+    border: 1px solid rgb(236, 236, 236);
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+input::placeholder{
+    color: #0e0e0e;
+    font-weight: 600;
+    font-size: 120%;
+}
+button{
+    font-size: 120%;
+    font-weight: 900;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    background-color: #0065FC;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+button:hover{
+    width: 135px;
+    height: 45px;
 }
