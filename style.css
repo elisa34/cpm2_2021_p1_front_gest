@@ -32,3 +32,15 @@ nav{
      color: #0065FC;
  }
  
+<<<<<<< HEAD
+=======
+ .lien_inscrire{
+     color: #0065FC;
+     font-weight: bold;
+ }
+ 
+ .lien_inscrire:hover{
+    border-top: none;
+}
+test
+>>>>>>> cb8c43da92b0087dd7a31586589ec19b4b1c9ce7
