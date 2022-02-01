@@ -24,7 +24,7 @@ nav{
      text-decoration: none;
      color: black;
      padding: 2em;
-     font-weight: 500;
+     
  }
  nav a:hover{
      border-top: 3px solid #0065FC;
@@ -32,11 +32,3 @@ nav{
      color: #0065FC;
  }
  
- .lien_inscrire{
-     color: #0065FC;
-     font-weight: bold;
- }
- 
- .lien_inscrire:hover{
-    border-top: none;
-}
