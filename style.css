@@ -185,3 +185,76 @@ button:hover{
 }
 
 
+
+/*partie cartes herbergement */
+.hebergement{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 4% 0 4%;
+}
+
+.hebergement p{
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.hebergement h2{
+    font-size: 15px;
+    margin: 0 0 25px 0;
+    width: fit-content;
+}
+
+
+.hebergement p:hover{
+    width: fit-content;
+    border-bottom: 2px solid black;
+}
+
+.hebergement section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 35px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.hebergement section .cartes{
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hebergement section .cartes div article{
+    height: 190px;
+    width: 30%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+
+.hebergement section .cartes div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartes article img{
+    height: 120px;
+    width: 98%;
+    margin-left: 2px;
+    margin-top: 2px;
+    border-radius: 10px 10px 0 0;
+}
+.cartes article h3{
+    font-size: 13px;
+    margin: 10px 0 5px 15px;
+}
+
+
