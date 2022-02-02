@@ -130,6 +130,19 @@ button:hover{
     margin-right: 15px;
 }
 
+.filtres div:hover{
+    background-color: #DEEBFF;
+}
+
+.filtres div:hover .icon{
+    background-color: #0065FC;
+    color: white;
+}
+
+.filtres div:hover .textfiltre{
+    color: #0065FC;
+}
+
 .icon{
     height: 50px;
     width: 50px;
@@ -170,3 +183,5 @@ button:hover{
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+
