@@ -94,10 +94,6 @@ button{
     border: none;
 }
 
-button:hover{
-    width: 135px;
-    height: 45px;
-}
 
 /*filtres*/
 
@@ -194,7 +190,7 @@ button:hover{
 }
 
 .hebergement p{
-    font-size: 1.2em;
+    font-size: 14px;
     font-weight: 800;
     margin-top: 50px;
     width: fit-content;
@@ -264,7 +260,7 @@ button:hover{
 
 .description{
     margin: 0 0 0 15px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
 }
 .etoiles{
@@ -274,3 +270,90 @@ button:hover{
     justify-content: flex-start;
 }
 
+/*debut du aside pour la partie de droite les plus populaires*/
+
+aside{
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.lespopulaires{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 4% 0 4%;
+    font-family: 'Raleway', sans-serif;
+}
+
+aside div{
+    height: 500px;
+    padding: 4px 30px 4px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+aside div article div{
+    padding-left: 20px;
+    padding-top: 10px;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+aside div article{
+    height: 140px;
+    width: fit-content;
+    display: flex;
+    border-radius: 15px;
+    padding: 4px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+
+aside div article img{
+    width: 45%;
+    min-width: 45%;
+    height: 140px;
+    border-radius: 10px 0 0 10px;
+}
+
+aside div article h3{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-right: 8px;
+} 
+
+aside div article span{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fa-chart-line{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.etoiles_pop{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding: 40px 0 2px 0;
+    box-sizing: border-box;
+}
+
+.etoiles_popu{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    padding: 20px 0 2px 0;
+    box-sizing: border-box;
+}
