@@ -214,6 +214,7 @@ button:hover{
     background-color: #F2F2F2;
     border-radius: 15px;
 }
+
 .hebergement section .cartes{
     height: 425px;
     display: flex;
@@ -246,6 +247,7 @@ button:hover{
     margin-top: 2px;
     border-radius: 10px 10px 0 0;
 }
+
 .cartes article h3{
     font-size: 13px;
     margin: 10px 0 5px 15px;
