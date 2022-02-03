@@ -192,7 +192,7 @@ button{
 .hebergement p{
     font-size: 14px;
     font-weight: 800;
-    margin-top: 50px;
+   margin-bottom: 11px;
     width: fit-content;
 }
 
@@ -206,10 +206,13 @@ button{
     display: flex;
     flex-direction: column;
     width: 60%;
+    height: 500px;
     padding: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     background-color: #F2F2F2;
     border-radius: 15px;
+    align-content: space-around;
 }
 
 .hebergement section .cartes{
@@ -297,7 +300,7 @@ aside div h2 {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    width: 80%;
+    width: 95%;
 }
 
 aside div{
