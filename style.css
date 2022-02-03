@@ -197,7 +197,7 @@ button{
 }
 
 .hebergement h2{
-    font-size: 15px;
+    font-size: 18px;
     margin: 10px 0 25px 0;
     width: fit-content;
 }
@@ -249,7 +249,7 @@ button{
 }
 
 .cartes article h3{
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 0 5px 15px;
 }
 
@@ -368,4 +368,107 @@ aside div article span{
     font-size: 10px;
     padding: 27px 0 2px 0;
     box-sizing: border-box;
+}
+
+
+/* zone 1 activités 3 premieres cartes */
+
+.activites{
+    height: 700px;
+    margin: -16px 4% 0 3.8%;
+    padding: 0;
+    width: auto;
+}
+
+.activites h2{
+    font-size: 18px;
+    margin: 70px 0 26px 0;
+    margin-left: 3px;
+}
+
+.cartesactivites{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zoneun, .zonedeux{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartevieuxport{
+    height: 400px;
+    width: 45%;
+}
+
+.petitescartes{
+    height: 400px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartefort{
+    height: 210px;
+}
+
+.carteiles{
+    height: 150px;
+}  
+
+.cartevieuxport, .cartefort, .carteiles, .cartedame, .carteparc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 25%);
+}
+
+.cartevieuxport:hover, .cartefort:hover, .carteiles:hover, .cartedame:hover, .carteparc:hover{
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 40%);
+}
+.activites article img{
+    border-radius: 10px 10px 0 0;
+}
+
+.cartevieuxport img{
+    height: 87%;
+}
+
+.cartefort img{
+    height: 165px;  
+}
+
+.carteiles img{
+    height: 104px;
+}
+
+.activites article h3{
+    font-size: 14px;
+    margin-left: 17px;
+}
+
+/* zone 2 activités 3 premieres cartes */
+
+.cartedame{
+    height: 210px;
+}
+
+.carteparc{
+    height: 150px;
+}
+
+.cartedame img{
+    height: 165px;
+    width: 100%;
+}
+
+.carteparc img{
+    height: 104px;
+    width: 100%;
+}
+.cartedame h3, .carteparc h3{
+    margin-top: 14px;
 }
