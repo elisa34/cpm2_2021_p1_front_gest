@@ -206,7 +206,7 @@ button{
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 500px;
+    height: 514px;
     padding: 20px;
     margin-top: 10px;
     padding-top: 10px;
@@ -284,6 +284,7 @@ aside{
     width: 30%;
     padding: 20px;
     padding-top: 10px;
+    margin-top: 10px;
 }
 
 aside div h2 {
