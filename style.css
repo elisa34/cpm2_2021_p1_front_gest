@@ -245,6 +245,11 @@ button{
     color: #000000;
 }
 
+.hebergement a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .cartes article img{
     height: 120px;
     width: 98%;
@@ -392,6 +397,11 @@ aside div article span{
     margin-left: 3px;
 }
 
+.activites a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .cartesactivites{
     display: flex;
     justify-content: space-between;
@@ -503,5 +513,4 @@ footer section p{
     width: fit-content;
     width: -moz-fit-content; 
 }
-
 
