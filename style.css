@@ -76,11 +76,13 @@ input{
     font-size: 100%;
     font-family: 'Raleway', sans-serif;
 }
+
 input::placeholder{
     color: #0e0e0e;
     font-weight: 600;
     font-size: 15px;
 }
+
 button{
     font-size: 15px;
     font-weight: 900;
@@ -492,25 +494,233 @@ aside div article span{
 
 /* footer */
 footer{
-    background-color: #F2F2F2;
+    width: 1480px;
     margin: auto;
-    width: 1350px;
     display: flex;
     justify-content: space-between;
-    padding: 30px 3.8% 0 3.8%;
+    padding: 18px 3.8% 0 3.8%;
+    background-color: #F2F2F2;
 }
 footer section{
-    padding: 1em 1em;
+    padding: 10px 10px;
     width: 30%;
 }
 footer section h2{
     margin-bottom: 10px;
-    font-size: 1.2em;
+    font-size: 16px;
 }
 footer section p{
     margin-top: 20px;
-    cursor: pointer;
     width: fit-content;
-    width: -moz-fit-content; 
 }
 
+/* media queries*/
+
+@media screen and (max-width: 768px) {
+    header img {
+        padding-left: 150px;
+    }
+
+    header {
+        display: block;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    header nav a {
+        padding: 0 0 20px 0;
+        width: 50%;
+        font-size: 18px;
+        border-bottom: 3px solid #F2F2F2;
+        text-align: center;
+    }
+    
+    header nav a:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: unset;
+        padding-top: none;
+    }
+
+    body{
+        margin: 4px;
+    }
+
+    .recherche p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .recherche {
+        margin: 0 10px 0 10px;
+        height: 500px;
+    }
+
+    .recherche h1{
+        margin-top: 20px;
+    }
+
+    button{
+        width: 55px;
+        height: 50px;
+        border-radius: 0 10px 10px 0;
+        font-size: 9px;
+        padding: 1px;
+        border: none;
+        text-align: center;
+    }
+
+    input{
+        height: 50px;
+        width: 263px;
+        border: none;
+    }
+
+    form{
+        border: 2px solid #F2F2F2;
+        border-right: none;
+        border-left: none;
+        border-radius: 10px 10px 10px 10px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 4px;
+        width: 360px;
+    }
+
+    .map{
+        height: 22px;
+    }
+
+    .filtres{
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .filtres div{
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .filtres span {
+        font-size: 18px;
+    }
+
+    .filtres div span{
+        margin-left: 11px;
+    }
+
+    .infoLogements{
+        font-size: 17px;
+    }
+
+    .information {
+        margin-top: 23px;
+    }
+
+    .rond {
+        height: 10px;
+        width: 10px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    aside{
+        display: block;
+    }
+
+    .aside div {
+        display: block;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .hebergement{
+        display: block;
+        margin: -11px -175px 46px -10px;
+    }
+
+    .hebergement section{
+        padding: 30px;
+        background-color: white;
+    }
+
+    .hebergement section .cartes div{
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+        height: 650px;
+        width: 100%;
+    }
+
+    .hebergement section .cartes{
+        height: 1330px;
+        width: 100%;
+    }
+
+    .hebergement section .cartes div article{
+        width: auto;
+        padding: none;
+        border: none;
+        height: 200px;
+        box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    }
+
+    .cartes article img {
+        height: 119px;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .cartes img {
+        height: 119px;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .cartes article h3 {
+        font-size: 16px;
+        margin: 10px 0 5px 15px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .activites{
+        height: 1360px;
+        margin: 336px -310px 0 23px;
+    }
+
+    .activites article img {
+        border-radius: 10px 10px 0 0;
+        height: 149px;
+    
+    }
+
+    .cartesactivites{
+        height: 1275px;
+        flex-direction: column;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    .cartevieuxport{
+        height: 150px;
+    }
+
+    .petitescartes{
+        height: 150px;
+    }
+
+    .cartevieuxport img, .cartefort img, .carteiles img, .cartedame img, .carteparc img{
+        height: 74%;
+    }
+
+}
