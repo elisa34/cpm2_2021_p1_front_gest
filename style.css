@@ -11,7 +11,7 @@ header {
 body {
     font-family: 'Raleway', sans-serif;
     color: #000000;
-    max-width: 1300px;
+    max-width: 2000px;
     width: auto;
     margin: 0 auto;
     font-size: 0.80em;
@@ -240,6 +240,11 @@ button{
     justify-content: space-between;
 }
 
+.hebergement article a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .cartes article img{
     height: 120px;
     width: 98%;
@@ -268,7 +273,7 @@ button{
     font-weight: 500;
 }
 .etoiles{
-    margin: 7px 0 0 15px;
+    margin: 5px 0 0 15px;
     font-size: 10px;
     display: flex;
     justify-content: flex-start;
@@ -359,7 +364,7 @@ aside div article span{
     display: flex;
     justify-content: flex-start;
     font-size: 10px;
-    padding: 45px 0 2px 0;
+    padding: 59px 0 2px 0;
     box-sizing: border-box;
 }
 
@@ -375,7 +380,7 @@ aside div article span{
 /* zone 1 activités 3 premieres cartes */
 
 .activites{
-    height: 700px;
+    height: 517px;
     margin: -16px 4% 0 3.8%;
     padding: 0;
     width: auto;
@@ -473,3 +478,30 @@ aside div article span{
 .cartedame h3, .carteparc h3{
     margin-top: 14px;
 }
+
+
+/* footer */
+footer{
+    background-color: #F2F2F2;
+    margin: auto;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3.8% 0 3.8%;
+}
+footer section{
+    padding: 1em 1em;
+    width: 30%;
+}
+footer section h2{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+footer section p{
+    margin-top: 20px;
+    cursor: pointer;
+    width: fit-content;
+    width: -moz-fit-content; 
+}
+
+
