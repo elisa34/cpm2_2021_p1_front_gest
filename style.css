@@ -103,7 +103,7 @@ button{
     align-items: center;
     flex-wrap: wrap;
     height: 100px;
-    width: 150%;
+    width: 100%;
 }
 .filtres span{
     font-weight: 800;
@@ -493,21 +493,23 @@ aside div article span{
 
 /* footer */
 footer{
-    width: 1300px;
-    margin: auto;
+   /* width: 950px;
+    margin: auto;*/
     display: flex;
     justify-content: space-between;
-    padding: 19px 673px 4px 45px;
+    padding: 19px 48px 4px 45px;
     background-color: #F2F2F2;
 }
 footer section{
     padding: 10px 10px;
     width: 30%;
 }
+
 footer section h2{
     margin-bottom: 10px;
     font-size: 16px;
 }
+
 footer section p{
     margin-top: 20px;
     width: fit-content;
