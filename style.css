@@ -610,7 +610,6 @@ footer section p{
 
     .filtres div{
         margin: 0;
-        font-size: 0.9em;
     }
 
     .filtres span {
@@ -619,6 +618,11 @@ footer section p{
 
     .filtres div span{
         margin-left: 11px;
+    }
+
+    .filtres .animaux{
+        width: 204px;
+        margin-top: 20%;
     }
 
     .infoLogements{
@@ -637,10 +641,24 @@ footer section p{
         padding: 10px;
     }
 
+
+    .lespopulaires{
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        width: 315px;
+    }
+
+
     aside{
-        padding: 114px;
-        padding-top: 10px;
-        margin-top: 10px;
+        padding: 136px;
+        padding-top: 15px;
+        margin-top: -9px;
+        padding-left: 30px;
+        padding-right: 196px;
         flex-direction: column;
     }
 
@@ -672,6 +690,7 @@ footer section p{
         flex-direction: column;
         height: 1374px;
         width: 331px;
+        padding-bottom: 44px;
     }
 
     .hebergement aside {
@@ -738,6 +757,13 @@ footer section p{
         width: 331px;
     }
 
+    .activités h2 {
+        font-size: 18px;
+        margin: 88px 0 26px 0;
+        margin-left: 3px;
+        font-weight: 900;
+    }
+
     .activites article img {
         border-radius: 10px 10px 0 0;
         height: 149px;
@@ -795,6 +821,5 @@ footer section p{
     footer section{
         width: 80%;
     }
-
 
 }
